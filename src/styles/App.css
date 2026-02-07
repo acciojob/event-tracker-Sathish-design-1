@@ -1,1 +1,31 @@
+/* Styling for the header and filter buttons */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
 
+.filter-buttons .btn {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Specific background colors for buttons */
+.filter-buttons .btn:nth-child(2) { background-color: rgb(222, 105, 135); color: white; } /* Past */
+.filter-buttons .btn:nth-child(3) { background-color: rgb(140, 189, 76); color: white; } /* Upcoming */
+
+/* Popup specific styling to satisfy technical requirements */
+.mm-popup__input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mm-popup__btn--danger { background-color: #d9534f !important; color: white !important; }
+.mm-popup__btn--success { background-color: #5cb85c !important; color: white !important; }
